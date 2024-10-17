@@ -9,7 +9,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-class Kaleidoscope extends JFrame {
+class Caleidoscopio extends JFrame {
     private ArrayList<Shape> baseShapes;
     private Timer timer;
     private Random random;
@@ -19,7 +19,7 @@ class Kaleidoscope extends JFrame {
     private final int CENTER_X = 400;
     private final int CENTER_Y = 300;
 
-    public Kaleidoscope() {
+    public Caleidoscopio() {
         setTitle("Caleidoscopio Mandala");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -130,7 +130,7 @@ class Kaleidoscope extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new Kaleidoscope().setVisible(true);
+            new Caleidoscopio().setVisible(true);
         });
     }
 }
