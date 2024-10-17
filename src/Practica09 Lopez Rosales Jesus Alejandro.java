@@ -36,7 +36,7 @@ class Caleidoscopio extends JFrame {
 
         initializeShapes();
 
-        timer = new Timer(50, new ActionListener() {
+        timer = new Timer(10, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 rotation += 0.02;
